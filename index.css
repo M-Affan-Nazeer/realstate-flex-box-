@@ -1,0 +1,138 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: wheat;
+}
+.top{
+    width: 100%;
+    height: 10vh;
+    border-bottom: solid 2px;
+    background-image: linear-gradient(rgba(13, 13, 150, 0.747),rgba(0, 0, 255, 0.863));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header{
+    width: 100%;
+    height: 50vh;
+    border-bottom: solid 2px;
+    text-align: center;
+}
+header{
+    background-image: url(h5.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    padding-top: 3%;
+}
+strong{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+main{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    padding: 4vh 1vh 0 1vw;
+    gap: 4rem;
+}
+
+h2{
+    margin-bottom: 3%;
+    font-weight: bolder;
+    color: lightcoral;
+}
+.main{
+    width: 70%;
+    height: 100%;
+    justify-content: center;
+}
+.box{
+    width: 95%;
+    height: 50%;
+    border: solid 2px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: white;
+    margin-bottom: 3%;
+    display: flex;
+}
+.content{
+    width: 60%;
+    height: 100%;
+    padding: 5%;
+}
+.image{
+    width: 40%;
+    height: 100%;
+}
+.contect-us{
+    margin-top: 50%;
+    width: 100vw;
+    height: 60vh;
+    background-image: linear-gradient(gray,black);
+    display: flex;
+    justify-content: center;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border: solid 4px;
+}
+form{
+    width: 50%;
+    height: 100%;
+    background-image: linear-gradient(white,rgb(226, 190, 123));
+    border-radius: 200px;
+    padding: 4% 10%;
+    text-align: center;
+}
+footer{
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+    border: solid 4px gray;
+    margin-top: 2%;
+    text-align: center;
+    color: aliceblue;
+    font-size: xx-large;
+    font-weight: lighter;
+    padding-top: 1%;
+}
+
+@media screen and (max-width: 768px) {
+    .top{
+        width: 95vw;
+    }
+    .header{
+        width: 95vw;
+    }
+    .main {
+        width: 100%;
+        gap: 5rem;
+    }
+    .box {
+        flex-direction: column;
+        margin-bottom: 2%;
+        height: max-content;
+    }
+    .content, .image {
+        width: 100%;
+    }
+    .content {
+        padding: 2%;
+    }
+    .contect-us {
+        margin-top: 280%;
+        width: 95vw;
+    }
+    footer{
+        width: 95vw;
+    }
+}
