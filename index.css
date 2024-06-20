@@ -121,10 +121,12 @@ footer{
         width: 100%;
     }
     .content {
-        padding: 2%;
+        padding: 1%;
     }
     .contect-us {
         margin-top: 470%;
         width: 100vw;
     }
+    form{
+        width:80%;
 }
