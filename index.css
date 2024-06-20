@@ -107,12 +107,6 @@ footer{
 }
 
 @media screen and (max-width: 768px) {
-    .top{
-        width: 95vw;
-    }
-    .header{
-        width: 95vw;
-    }
     .main {
         width: 100%;
         gap: 5rem;
@@ -130,9 +124,6 @@ footer{
     }
     .contect-us {
         margin-top: 280%;
-        width: 95vw;
-    }
-    footer{
-        width: 95vw;
+        width: 100vw;
     }
 }
